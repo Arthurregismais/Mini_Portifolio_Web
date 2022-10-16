@@ -2,3 +2,5 @@
 
 Neste projeto criei um portifólio em uma página web. Foi feito com HTML, CSS e Javascript. Nele constam botões que levam á varias páginas web, como meu curríuclo 
 no Google Documents, minha conta no Github e meu Linkedin.
+
+Link com o projeto perfeitamente funcional: https://arthurregismais.github.io/Mini_Portifolio_Web/
