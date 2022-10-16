@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portifólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="apresentacao">
+            <img src="src/imagens/foto_96x96.png" alt="Uma foto minha">
+            <h1 class="nome"> Arthur Régis Mais</h1>
+            <h2 class="cargo"> Desenvolvedor Web Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+                <ul class="abas">
+                    <li class="aba selecionado" id="sobre-mim">
+                        <img src="./src/imagens/sobre.gif" alt="gif sobre mim">
+                    </li>
+                    <li class="aba" id="minhas-redes">
+                        <img src="./src/imagens/coracao.gif" alt="gif de um coraçao">
+                    </li>
+                </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo"> Sobre </h3>
+               
+
+                    <div class="descricao">
+                        <p>Olá! meu nome é Arthur Régis Mais, seja bem-vindo(a)!</p>
+
+                        <p>
+                            Me descobri na programação com 18 anos e desde pequeno tenho muita afinidade
+                            com computadores e a tecnologia em geral. Desejo muito trabalhar com programação 
+                            e venho me preparando para que isso seja possível. Tenho alguns projetos
+                            pessoais, feitos com <span>Javascript, CSS, HTML, Python e Django</span>. No momento estou me aprofundando
+                            em desenvolvimento web com a tríade do frontend, o <span>HTML, CSS e Javascript</span>. Meus hobbies principais 
+                            são assistir filmes, jogar video games e passar tempo com a família.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo"> Minhas redes </h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://docs.google.com/document/d/1C5m4oS2NyWPfZrBaZaahvoc6t-BAvN3k/edit?usp=sharing&ouid=108636655678696515979&rtpof=true&sd=true" class="curriculo" target="_blank">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/arthur-r%C3%A9gis-mais-034444231/"  
+                            class="linkedin" target="_blank">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Arthurregismais" class="github" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div> 
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>  
+</body>
+</html>
